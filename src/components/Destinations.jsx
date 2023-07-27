@@ -7,13 +7,11 @@ const Destinations = () => {
   return (
     <section className="destinations   ">
       <div className="heading">
-        <h3 className="text-center text-5xl font-bold text-green-700 mb-10">
+        <h3 className="text-center text-5xl font-bold text-green-600 mb-10">
           Where are you thinking of studying?{" "}
         </h3>
-        <p className="w-1/2 text-center mx-auto mb-10">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet pariatur
-          ipsa, dolores omnis molestiae quia. Recusandae eum voluptatibus earum,
-          labore perferendis hic iste, quo nam ex fugiat, dolorem ut officiis?
+        <p className="w-1/2 text-center mx-auto mb-5 text-green-700">
+        Start your overseas education journey with the best Study Abroad education consultant
         </p>
       </div>
       <div className="wrap flex gap-10 bg-green-50 p-10 ">

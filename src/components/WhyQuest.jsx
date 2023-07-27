@@ -1,5 +1,8 @@
 import React from "react";
 import { BiMap } from "react-icons/bi";
+import {PiArrowsLeftRightDuotone} from "react-icons/pi";
+import {FaUniversity, FaUserFriends} from "react-icons/Fa";
+import {GrAchievement} from "react-icons/Gr";
 
 const WhyQuest = () => {
   return (
@@ -24,27 +27,27 @@ const WhyQuest = () => {
         </div>
         <div className="item text-center shadow-lg p-10 rounded-md">
           <div className="icon mx-auto bg-green-100  rounded-full text-green-700 h-16 w-16 flex justify-center items-center text-3xl">
-            <BiMap />
+            <PiArrowsLeftRightDuotone />
           </div>
-          <h4 className="font-bold mt-3">Located in 15+ Countries</h4>
+          <h4 className="font-bold mt-3">End to End Services</h4>
         </div>
         <div className="item text-center shadow-lg p-10 rounded-md">
           <div className="icon mx-auto bg-green-100  rounded-full text-green-700 h-16 w-16 flex justify-center items-center text-3xl">
-            <BiMap />
+            <FaUniversity />
           </div>
-          <h4 className="font-bold mt-3">Located in 15+ Countries</h4>
+          <h4 className="font-bold mt-3">100s of partner institution</h4>
         </div>
         <div className="item text-center shadow-lg p-10 rounded-md">
           <div className="icon mx-auto bg-green-100  rounded-full text-green-700 h-16 w-16 flex justify-center items-center text-3xl">
-            <BiMap />
+            <FaUserFriends />
           </div>
-          <h4 className="font-bold mt-3">Located in 15+ Countries</h4>
+          <h4 className="font-bold mt-3">Student friendly preparation classes</h4>
         </div>
         <div className="item text-center shadow-lg p-10 rounded-md">
           <div className="icon mx-auto bg-green-100  rounded-full text-green-700 h-16 w-16 flex justify-center items-center text-3xl">
-            <BiMap />
+            <GrAchievement />
           </div>
-          <h4 className="font-bold mt-3">Located in 15+ Countries</h4>
+          <h4 className="font-bold mt-3">High Visa Success Rate</h4>
         </div>
       </div>
     </section>

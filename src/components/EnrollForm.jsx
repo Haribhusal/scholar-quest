@@ -44,11 +44,11 @@ const EnrollForm = () => {
     <section className="p-10 pb-0 bg-blue-100 flex justify-between items-end">
       <div className="formwrapper flex-1">
         <form action="" className="" onSubmit={handleSubmit}>
-          <h3 className="title text-3xl font-bold text-blue-700">
+          <h3 className="title text-5xl font-bold text-blue-700 mb-5">
             Get in touch
           </h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, a.
+          Let us know your inquiry. Lets start your application, kindly please fill the form and one of our adviser will contact you via email or call in less than 24 hours.
           </p>
 
           <div className="fields text-gray-800 my-10">
