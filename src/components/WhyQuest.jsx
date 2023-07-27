@@ -12,8 +12,7 @@ const WhyQuest = () => {
           </span>
         </h3>
         <p className="w-2/4 text-slate-600">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Exercitationem quae nihil quos dolorem, a eaque.
+        Choose ScholarQuest for a successful study abroad journey. We offer personalized guidance, expert support, and a commitment to making your academic aspirations a reality. Your dreams matter to us.
         </p>
       </div>
       <div className="icons flex gap-10 my-10 justify-between">
