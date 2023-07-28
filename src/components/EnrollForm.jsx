@@ -41,7 +41,10 @@ const EnrollForm = () => {
   };
 
   return (
-    <section className="p-10 pb-0 bg-blue-100 flex justify-between items-end">
+    <section
+      className="p-10 pb-0 bg-blue-100 flex justify-between items-end"
+      id="enroll"
+    >
       <div className="formwrapper flex-1">
         <form action="" className="" onSubmit={handleSubmit}>
           <h3 className="title text-3xl font-bold text-blue-700">
