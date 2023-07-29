@@ -69,7 +69,7 @@ const Footer = () => {
       </section>
       <section className="px-10 bg-gray-700 text-white flex justify-between items-center">
         <p>
-          Copyright &copy; Scholar <span>Quest</span> 2023
+          Copyright &copy; <span className="text-green-700 font-bold">Scholar</span> <span className="text-blue-700 font-bold">Quest</span> 2023
         </p>
         <div className=" flex items-center gap-3">
           <h4 className="subheading ">Let's get social</h4>

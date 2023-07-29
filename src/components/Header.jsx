@@ -10,10 +10,10 @@ const Header = () => {
         <Link href="/" className="flex items-center gap-3">
           <Image src="/logo-quest.png" width={100} alt="logo" height={40} />
           <div className="brand">
-            <h1 className=" text-green-700 font-bold md:text-2xl">
-              Scholar <span>Quest</span>
+            <h1 className="text-green-700 font-bold md:text-2xl">
+              Scholar <span className="text-blue-700 font-bold">Quest</span>
             </h1>
-            <h4>Education Network</h4>
+            <h4 className="text-blue-600 font-bold">Education Network</h4>
           </div>
         </Link>
       </div>
@@ -21,7 +21,7 @@ const Header = () => {
         <Link href="/"> Study Abroad</Link>
         <Link href="/"> Classes</Link>
         <Link href="/"> Testimonials</Link>
-        <Link href="/"> Contact</Link>
+        <Link href="/"> Our Partner</Link>
         <Link
           href="/"
           className="bg-green-700 text-white px-10 flex items-center gap-3 py-2 rounded-md"
