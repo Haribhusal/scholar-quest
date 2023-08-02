@@ -15,7 +15,7 @@ const Home = () => {
       <Destinations />
       <WhyQuest />
       <TestimonialsCarousel />
-      <ContactForm />
+      {/* <ContactForm /> */}
       <EnrollForm />
     </main>
   );
