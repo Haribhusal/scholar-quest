@@ -8,7 +8,6 @@ import { destinations } from "./../data/destinations";
 
 const Destinations = () => {
   const [activeDestination, setActiveDestination] = useState(1);
-  console.log(destinations);
   return (
     <section className="destinations   ">
       <div className="heading">
@@ -32,7 +31,7 @@ const Destinations = () => {
           <ul className=" flex flex-col gap-3">
             {destinations &&
               destinations.map((item) => (
-                <li>
+                <li key={item.id}>
                   <button
                     onClick={() => setActiveDestination(item.id)}
                     className="bg-green-200 flex items-center gap-3 text-left w-full text-green-700 px-5 py-3 rounded-md font-bold hover:bg-green-700 hover:text-white transition-all"
@@ -73,6 +72,25 @@ const Destinations = () => {
             More information
             <BsArrowRight />
           </Link>
+          {destinations &&
+            destinations.map(
+              (item) =>
+                item.id === activeDestination && (
+                  <article key={item.id}>
+                    <h3 className="font-bold text-4xl text-green-700">
+                      {item.title}
+                    </h3>
+                    <p className="py-5 text-slate-600">{item.description}</p>
+                    <Link
+                      href="/"
+                      className="inline-flex items-center gap-3 bg-green-700 text-white px-5 py-3 rounded "
+                    >
+                      More information
+                      <BsArrowRight />
+                    </Link>
+                  </article>
+                )
+            )}
         </div>
         <div className="image flex-1">
           {destinations &&
@@ -80,11 +98,12 @@ const Destinations = () => {
               (item) =>
                 item.id === activeDestination && (
                   <Image
-                    src={`/destinations/destination-${item.id}.jpeg`}
+                    key={item.id}
+                    src={`/${item.image}`}
                     height={400}
                     width={200}
                     className="w-full rounded-md"
-                    alt="Study in Australia"
+                    alt={item.title}
                   />
                 )
             )}
