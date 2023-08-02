@@ -15,7 +15,8 @@ const Destinations = () => {
           Where are you thinking of studying?{" "}
         </h3>
         <p className="w-1/2 text-center mx-auto mb-5 text-green-700">
-        Start your overseas education journey with the best Study Abroad education consultant
+          Start your overseas education journey with the best Study Abroad
+          education consultant
         </p>
       </div>
       <div className="wrap flex gap-10 bg-green-50 p-10 ">
@@ -47,31 +48,6 @@ const Destinations = () => {
         </div>
 
         <div className="content flex-[2]">
-          <h3 className="font-bold text-4xl text-green-700">
-            Study in Australia
-          </h3>
-          <p className="py-5 text-slate-600">
-            We are your dedicated companions on the path to studying in
-            Australia. Our team of experts is committed to providing
-            personalized guidance tailored to your academic and career goals.
-            From helping you select the right course and university to assisting
-            with the application process and visa requirements, we ensure a
-            smooth and hassle-free transition to studying in Australia. Our
-            extensive knowledge of the Australian education system, coupled with
-            valuable insights on campus life and accommodation, allows us to
-            support you in every aspect of your study abroad journey. At
-            ScholarQuest, we strive to make your dream of studying in Australia
-            a reality, where academic excellence and personal growth come
-            together for an enriching experience. Get ready to embark on an
-            extraordinary educational adventure with ScholarQuest!
-          </p>
-          <Link
-            href="/"
-            className="inline-flex items-center gap-3 bg-green-700 text-white px-5 py-3 rounded "
-          >
-            More information
-            <BsArrowRight />
-          </Link>
           {destinations &&
             destinations.map(
               (item) =>

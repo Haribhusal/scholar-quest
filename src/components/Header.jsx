@@ -18,11 +18,7 @@ const Header = () => {
           </div>
         </Link>
       </div>
-      <nav className="flex flex-col md:flex-row gap-3 md:gap-10 items-center ">
-        <Link href="/"> Study Abroad</Link>
-        <Link href="/"> Classes</Link>
-        <Link href="/"> Testimonials</Link>
-        <Link href="/"> Our Partner</Link>
+
       <nav className="flex flex-col md:flex-row gap-3  items-center ">
         <div className="dropdown relative group cursor-pointer">
           <div className="title p-5">Study Abroad</div>

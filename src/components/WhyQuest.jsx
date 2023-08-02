@@ -1,8 +1,8 @@
 import React from "react";
 import { BiMap } from "react-icons/bi";
 import {PiArrowsLeftRightDuotone} from "react-icons/pi";
-import {FaUniversity, FaUserFriends} from "react-icons/Fa";
-import {GrAchievement} from "react-icons/Gr";
+import { FaUniversity, FaUserFriends } from "react-icons/fa";
+import { GrAchievement } from "react-icons/gr";
 
 const WhyQuest = () => {
   return (
