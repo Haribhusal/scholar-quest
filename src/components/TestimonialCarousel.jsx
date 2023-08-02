@@ -18,8 +18,8 @@ const TestimonialCarousel = () => {
   return (
     <section className="p-10">
       <div className="heading text-center">
-        <h3 className="text-3xl font-bold">
-          Testimonials by <span className="text-green-700">our students</span>
+        <h3 className="text-5xl font-bold">
+          Hear from <span className="text-green-700">those who got there</span>
         </h3>
       </div>
       <Slider {...settings}>

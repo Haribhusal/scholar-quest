@@ -11,13 +11,18 @@ const Header = () => {
         <Link href="/" className="flex items-center gap-3">
           <Image src="/logo-quest.png" width={100} alt="logo" height={40} />
           <div className="brand">
-            <h1 className=" text-green-700 font-bold md:text-2xl">
-              Scholar <span>Quest</span>
+            <h1 className="text-green-700 font-bold md:text-2xl">
+              Scholar <span className="text-blue-700 font-bold">Quest</span>
             </h1>
-            <h4>Education Network</h4>
+            <h4 className="text-blue-600 font-bold">Education Network</h4>
           </div>
         </Link>
       </div>
+      <nav className="flex flex-col md:flex-row gap-3 md:gap-10 items-center ">
+        <Link href="/"> Study Abroad</Link>
+        <Link href="/"> Classes</Link>
+        <Link href="/"> Testimonials</Link>
+        <Link href="/"> Our Partner</Link>
       <nav className="flex flex-col md:flex-row gap-3  items-center ">
         <div className="dropdown relative group cursor-pointer">
           <div className="title p-5">Study Abroad</div>

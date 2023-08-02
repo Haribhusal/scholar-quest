@@ -1,31 +1,46 @@
 export const testimonials = [
   {
     id: 1,
-    name: "John Doe",
-    company: "ABC Inc.",
+    name: "Prakash Adhikari",
+    company: "Bachelor in Computer Science",
     text:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque feugiat purus a mi suscipit, nec vestibulum dolor tempus.",
+"ScholarQuest, the top education consultant in Nepal, helped me study in Australia. From offer letter to visa, their expert guidance made the process seamless. Grateful to my friend's recommendation."
   },
   {
     id: 2,
-    name: "Jane Smith",
-    company: "XYZ Corp.",
+    name: "Ajay Basnet",
+    company: "Bachelor in Business Management",
     text:
-      "Ut cursus, felis vel hendrerit luctus, ex ex tempor libero, ac bibendum ipsum orci non turpis.",
+      "ScholarQuest, the best education consultancy in Nepal, made my dream of studying in Australia a reality. Their expert guidance and support throughout the process were invaluable.",
   },
   {
     id: 3,
-    name: "Jane Smith",
-    company: "XYZ Corp.",
+    name: "Abhiyan Sapkota",
+    company: "Master in Information Technology",
     text:
-      "Ut cursus, felis vel hendrerit luctus, ex ex tempor libero, ac bibendum ipsum orci non turpis.",
+      "Thanks to ScholarQuest, my dream of studying MIT in Australia came true! Their guidance and support made the entire process smooth and hassle-free. I am forever grateful for their help in making my study abroad journey a success.",
   },
   {
     id: 4,
-    name: "Jane Smith",
-    company: "XYZ Corp.",
+    name: "Prakash Adhikari",
+    company: "Bachelor in Computer Science",
     text:
-      "Ut cursus, felis vel hendrerit luctus, ex ex tempor libero, ac bibendum ipsum orci non turpis.",
+"ScholarQuest, the top education consultant in Nepal, helped me study in Australia. From offer letter to visa, their expert guidance made the process seamless. Grateful to my friend's recommendation."
   },
+  {
+    id: 5,
+    name: "Ajay Basnet",
+    company: "Bachelor in Business Management",
+    text:
+      "ScholarQuest, the best education consultancy in Nepal, made my dream of studying in Australia a reality. Their expert guidance and support throughout the process were invaluable.",
+  },
+  {
+    id: 6,
+    name: "Abhiyan Sapkota",
+    company: "Master in Information Technology",
+    text:
+      "Thanks to ScholarQuest, my dream of studying MIT in Australia came true! Their guidance and support made the entire process smooth and hassle-free. I am forever grateful for their help in making my study abroad journey a success.",
+  },
+ 
 
 ];
