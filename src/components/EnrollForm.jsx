@@ -103,15 +103,12 @@ const EnrollForm = () => {
               <div className="field flex-1">
                 <select
                   name="educationLevel"
-                  value={formData.educationLevel}
                   onChange={handleChange}
                   defaultValue={"education Level"}
                   id=""
                   className="bg-white px-5 w-full h-auto ring-0 py-2 rounded focus:ring-0 focus:shadow-none focus:border-none"
                 >
-                  <option value="" disabled selected>
-                    Select Education Level{" "}
-                  </option>
+                  <option value="">Select Education Level </option>
                   <option value="plustwo">+2</option>
                   <option value="bachelors">Bachelors</option>
                   <option value="masters">Masters</option>
@@ -121,14 +118,11 @@ const EnrollForm = () => {
                 <select
                   defaultValue={"Courses"}
                   name="courses"
-                  value={formData.courses}
                   onChange={handleChange}
                   id=""
                   className="bg-white px-5 w-full h-auto ring-0 py-2 rounded focus:ring-0 focus:shadow-none focus:border-none"
                 >
-                  <option value="" disabled selected>
-                    Select Courses
-                  </option>
+                  <option value="">Select Courses</option>
                   <option value="science">Science</option>
                   <option value="management">Management</option>
                   <option value="hotel-management">Hotel Management</option>
@@ -138,14 +132,11 @@ const EnrollForm = () => {
                 <select
                   defaultValue={"Destination"}
                   name="destination"
-                  value={formData.destination}
                   onChange={handleChange}
                   id=""
                   className="bg-white px-5 w-full h-auto ring-0 py-2 rounded focus:ring-0 focus:shadow-none focus:border-none"
                 >
-                  <option value="" disabled selected>
-                    Select your destination
-                  </option>
+                  <option value="">Select your destination</option>
                   <option value="australia">Australia</option>
                   <option value="newzealand">New Zealand</option>
                   <option value="canada">Canada</option>

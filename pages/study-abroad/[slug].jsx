@@ -8,9 +8,7 @@ import { destinations } from "../../src/data/destinations";
 const StudyAbroadSinglePage = () => {
   const router = useRouter();
   const slug = router.query.slug;
-  console.log(router.query.slug);
   const destinationData = destinations?.find((item) => item.slug === slug);
-  console.log(destinationData);
   return (
     <div>
       <Header />

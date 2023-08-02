@@ -4,7 +4,6 @@ import testiData from "../data/testimonials.js";
 
 const Testimonials = () => {
   const [activeTesti, setActiveTest] = useState(3);
-  console.log(testiData);
   return (
     <section className="bg-green-50 p-10">
       <div className="heading">
@@ -16,7 +15,7 @@ const Testimonials = () => {
         testiData.map(
           (item) =>
             item.id === activeTesti && (
-              <div className="flex">
+              <div className="flex" key={item.id}>
                 <div className="flex-[3]">
                   <p>{item.message}</p>
                   <h3>{item.personName}</h3>
