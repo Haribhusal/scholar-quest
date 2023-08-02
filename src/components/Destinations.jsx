@@ -76,11 +76,11 @@ const Destinations = () => {
               (item) =>
                 item.id === activeDestination && (
                   <Image
-                    src={`/destinations/destination-${item.id}.jpeg`}
+                    src={`/${item.image}`}
                     height={400}
                     width={200}
                     className="w-full rounded-md"
-                    alt="Study in Australia"
+                    alt={item.title}
                   />
                 )
             )}

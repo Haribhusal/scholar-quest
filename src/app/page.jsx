@@ -5,6 +5,7 @@ import Destinations from "./../components/Destinations";
 import Services from "./../components/Services";
 import Hero from "./../components/Hero";
 import EnrollForm from "./../components/EnrollForm";
+import ContactForm from "./../components/ContactForm";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Destinations />
       <WhyQuest />
       <TestimonialsCarousel />
+      <ContactForm />
       <EnrollForm />
     </main>
   );
